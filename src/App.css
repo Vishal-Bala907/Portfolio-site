@@ -1,0 +1,45 @@
+:root {
+  --black: #111111;
+  --white: #fdfdfd;
+  --green: #22cc88;
+  --blue: #0055ff;
+  --purple: #8855ff;
+  --red: #ff0055;
+  --orange: #ee4444;
+  --yellow: #ffcc00;
+  --mustard: #ffaa00;
+
+  --background: var(--white);
+  --accent: var(--black);
+}
+
+.progress-bar-motion {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: var(--red);
+  transform-origin: 0%;
+  z-index: 3;
+}
+
+.skills-icons {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tippy-box[data-theme~="tomato"] {
+  background-color: tomato;
+  color: rgb(0, 0, 0);
+}
+
+.form-container {
+  width: calc(100% - 20%);
+}
+
+.preview-image {
+  width: 50%;
+}

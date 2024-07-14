@@ -29,7 +29,7 @@ export default function Nav() {
               <li className="nav-item">
                 <HashLink
                   smooth
-                  to="#home"
+                  to="/#home"
                   className="nav-link active"
                   aria-current="page"
                 >
@@ -40,7 +40,7 @@ export default function Nav() {
               <li className="nav-item">
                 <HashLink
                   smooth
-                  to="#myself"
+                  to="/#myself"
                   className="nav-link active"
                   aria-current="page"
                 >
@@ -51,7 +51,7 @@ export default function Nav() {
               <li className="nav-item">
                 <HashLink
                   smooth
-                  to="#skills"
+                  to="/#skills"
                   className="nav-link active"
                   aria-current="page"
                 >
@@ -74,7 +74,7 @@ export default function Nav() {
               <li className="nav-item">
                 <HashLink
                   smooth
-                  to="#contact"
+                  to="/#contact"
                   className="nav-link active"
                   aria-current="page"
                 >

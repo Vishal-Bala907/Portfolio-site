@@ -10,6 +10,7 @@
   cursor: pointer;
   background-size: cover;
   box-shadow: 3px 3px 8px rgb(134, 134, 134), -3px -3px 8px rgb(104, 104, 104);
+  background-color: black;
 }
 .desc {
   width: 100%;

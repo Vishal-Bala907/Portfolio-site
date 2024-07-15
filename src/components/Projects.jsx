@@ -3,14 +3,7 @@ import projectInfoArray from "../../myporjects/info";
 import styels from "../styles/projects.module.css";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-
-// import cafe1 from "../../porjects/images/react.jpg";
-// import cafe2 from "../../porjects/images/react.jpg";
-// import clock from "../../porjects/images/react.jpg";
-// import react from "../../porjects/images/react.jpg";
-// import res from "../../porjects/images/react.jpg";
-// import temple from "../../porjects/images/react.jpg";
-// import whe from "../../porjects/images/react.jpg";
+import cafe1 from "../../myporjects/images/cafe1.png";
 
 export default function Projects() {
   function mouseOver(id) {
@@ -28,7 +21,11 @@ export default function Projects() {
   let effect = ["fade-right", "fade-left"];
   let flag = false;
   return (
-    <div id="projects" className="conatainer-sm" style={{ overflow: "hidden" }}>
+    <div
+      id="projects"
+      className="conatainer-sm text-dark"
+      style={{ overflow: "hidden" }}
+    >
       <h1 className="text-white text-center">Projects</h1>
       <div
         className="container-sm bg-dark p-4 d-flex justify-content-center flex-wrap position-relative"
@@ -41,7 +38,7 @@ export default function Projects() {
               data-aos={flag ? effect[0] : effect[1]}
               key={project.id}
               className={`p-3 m-3 text-center ${styels.parent}`}
-              style={{ backgroundImage: `url('${project.image}')` }}
+              style={{ backgroundImage: `url(${project.image})` }}
               onMouseEnter={() => mouseOver(project.id)}
               onMouseLeave={() => mouseLeave(project.id)}
             >

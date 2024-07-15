@@ -1,8 +1,16 @@
 import React from "react";
-import projectInfoArray from "../../porjects/info";
+import projectInfoArray from "../../myporjects/info";
 import styels from "../styles/projects.module.css";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+
+// import cafe1 from "../../porjects/images/react.jpg";
+// import cafe2 from "../../porjects/images/react.jpg";
+// import clock from "../../porjects/images/react.jpg";
+// import react from "../../porjects/images/react.jpg";
+// import res from "../../porjects/images/react.jpg";
+// import temple from "../../porjects/images/react.jpg";
+// import whe from "../../porjects/images/react.jpg";
 
 export default function Projects() {
   function mouseOver(id) {
@@ -19,7 +27,6 @@ export default function Projects() {
 
   let effect = ["fade-right", "fade-left"];
   let flag = false;
-
   return (
     <div id="projects" className="conatainer-sm" style={{ overflow: "hidden" }}>
       <h1 className="text-white text-center">Projects</h1>

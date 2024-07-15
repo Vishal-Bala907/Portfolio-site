@@ -7,8 +7,8 @@ const projectInfoArray = [
     desc: "A web app for managing restaurants,cafe or any sort or e-commerce business, allows users to view available producsts by browsing through the category and make a purchase, admin can manage the employees/users/products , can view the dashboard etc",
     coverImage: "/path",
     site: "/ec-res",
-    github: "https://github.com/Vishal-Bala907/Cafe-web-App",
-    image: "../../porjects/images/res.jpg",
+    github: "https://github.com/Vishal-Bala907/Cafe-webb-App",
+    image: "./myporjects/images/res.jpg",
   },
   {
     id: "p-3",
@@ -19,7 +19,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "https://vishal-bala907.github.io/Wether-App/",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-lite",
-    image: "../../porjects/images/whe.jpg",
+    image: "./myporjects/images/whe.jpg",
   },
 
   {
@@ -31,7 +31,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/cafe-adv",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-Advance",
-    image: "../../porjects/images/cafe2.jpg",
+    image: "./myporjects/images/cafe2.jpg",
   },
 
   {
@@ -43,7 +43,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/temple",
     github: "https://github.com/Vishal-Bala907/Temple-trust-updated",
-    image: "../../porjects/images/temple.jpg",
+    image: "./myporjects/images/temple.jpg",
   },
 
   {
@@ -55,7 +55,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/clock",
     github: "https://github.com/Vishal-Bala907/Clock-App",
-    image: "../../porjects/images/clock.jpg",
+    image: "./myporjects/images/clock.jpg",
   },
   {
     id: "p-6",
@@ -66,7 +66,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/cafe-lite",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-lite",
-    image: "../../porjects/images/cafe1.jpg",
+    image: "./myporjects/images/cafe1.jpg",
   },
 
   {
@@ -78,7 +78,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/",
     github: "https://github.com/Vishal-Bala907/Portfolio-site",
-    image: "../../porjects/images/react.jpg",
+    image: "./myporjects/images/react.jpg",
   },
 ];
 

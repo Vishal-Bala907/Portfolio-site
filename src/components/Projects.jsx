@@ -3,7 +3,7 @@ import projectInfoArray from "../../myporjects/info";
 import styels from "../styles/projects.module.css";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import cafe1 from "../../myporjects/images/cafe1.png";
+import cafe1 from "../../myporjects/ProjectImages/cafe1.jpg";
 
 export default function Projects() {
   function mouseOver(id) {
@@ -38,7 +38,7 @@ export default function Projects() {
               data-aos={flag ? effect[0] : effect[1]}
               key={project.id}
               className={`p-3 m-3 text-center ${styels.parent}`}
-              style={{ backgroundImage: `url(${project.image})` }}
+              style={{ backgroundImage: `url(${cafe1})` }}
               onMouseEnter={() => mouseOver(project.id)}
               onMouseLeave={() => mouseLeave(project.id)}
             >

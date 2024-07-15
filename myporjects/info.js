@@ -8,7 +8,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/ec-res",
     github: "https://github.com/Vishal-Bala907/Cafe-webb-App",
-    image: "./myporjects/images/res.jpg",
+    image: "../../myporjects/ProjectImages/res.jpg",
   },
   {
     id: "p-3",
@@ -19,7 +19,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "https://vishal-bala907.github.io/Wether-App/",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-lite",
-    image: "./myporjects/images/whe.jpg",
+    image: "../../myporjects/ProjectImages/whe.jpg",
   },
 
   {
@@ -31,7 +31,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/cafe-adv",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-Advance",
-    image: "./myporjects/images/cafe2.jpg",
+    image: "../../myporjects/ProjectImages/cafe2.jpg",
   },
 
   {
@@ -43,7 +43,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/temple",
     github: "https://github.com/Vishal-Bala907/Temple-trust-updated",
-    image: "./myporjects/images/temple.jpg",
+    image: "../../myporjects/ProjectImages/temple.jpg",
   },
 
   {
@@ -55,7 +55,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/clock",
     github: "https://github.com/Vishal-Bala907/Clock-App",
-    image: "./myporjects/images/clock.jpg",
+    image: "../../myporjects/ProjectImages/clock.jpg",
   },
   {
     id: "p-6",
@@ -66,7 +66,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/cafe-lite",
     github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-lite",
-    image: "./myporjects/images/cafe1.jpg",
+    image: "../../myporjects/ProjectImages/cafe1.jpg",
   },
 
   {
@@ -78,7 +78,7 @@ const projectInfoArray = [
     coverImage: "/path",
     site: "/",
     github: "https://github.com/Vishal-Bala907/Portfolio-site",
-    image: "./myporjects/images/react.jpg",
+    image: "../../myporjects/ProjectImages/react.jpg",
   },
 ];
 

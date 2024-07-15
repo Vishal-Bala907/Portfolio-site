@@ -41,7 +41,7 @@ export default function Projects() {
               data-aos={flag ? effect[0] : effect[1]}
               key={project.id}
               className={`p-3 m-3 text-center ${styels.parent}`}
-              style={{ backgroundImage: `url(${project.image})` }}
+              style={{ backgroundImage: `url('${project.image}')` }}
               onMouseEnter={() => mouseOver(project.id)}
               onMouseLeave={() => mouseLeave(project.id)}
             >

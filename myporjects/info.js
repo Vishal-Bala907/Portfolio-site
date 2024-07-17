@@ -18,7 +18,7 @@ const projectInfoArray = [
     desc: "Wheather app built on react js allows you to get the information about wheather conditions, you can see the wheather deatiails of today , hourly , next three/seven/fifteen days",
     coverImage: "/path",
     site: "https://vishal-bala907.github.io/Wether-App/",
-    github: "https://github.com/Vishal-Bala907/Cafe-management-Sytem-lite",
+    github: "https://github.com/Vishal-Bala907/Wether-App",
     image: "../../myporjects/ProjectImages/whe.jpg",
   },
 

@@ -64,14 +64,14 @@ export default function Projects() {
                 <p>
                   <b> {project.desc}</b>
                 </p>
-                <a
-                  href={project.site}
+                <Link
+                  to={project.site}
                   type="button"
                   target="_blank"
                   className="btn btn-primary"
                 >
                   View Details
-                </a>
+                </Link>
                 <a
                   href={project.github}
                   target="_blank"

@@ -14,9 +14,9 @@
 .information {
   color: white;
   padding: 2%;
-  background-color: #ffffff6e;
-  backdrop-filter: blur(9px);
-  border-radius: 10%;
+  background-color: #8075753d;
+  backdrop-filter: blur(12px);
+  border-radius: 25px;
   text-align: center;
   cursor: none;
 }
@@ -32,13 +32,13 @@
   box-shadow: 6px 6px 10px #eae7e7, -6px -6px 10px #faf9f9;
 }
 .myname {
-  color: orange;
+  color: rgb(242, 242, 242);
+  font-size: xx-large;
   text-shadow: 1px 1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
     -1px -1px 0px black;
 }
 
 .myskills {
-  color: rgb(113 210 255);
-  text-shadow: 1px 1px 0px #b5ff00, -1px 1px 0px black, 1px -1px 0px black,
-    -1px -1px 0px black;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
 }

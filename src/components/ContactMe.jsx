@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWhatsapp,
@@ -7,7 +6,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "aos/dist/aos.css";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import img from "../../images/hii.png";
 
 export default function ContactMe() {
   return (

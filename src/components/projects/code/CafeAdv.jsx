@@ -1,10 +1,7 @@
-import React from "react";
-
 import img0 from "../images/cafe-adv/0.png";
 import img1 from "../images/cafe-adv/1.png";
 import img2 from "../images/cafe-adv/2.png";
 import img3 from "../images/cafe-adv/3.png";
-import img4 from "../images/cafe-adv/4.png";
 import img5 from "../images/cafe-adv/5.png";
 import img6 from "../images/cafe-adv/6.png";
 import img7 from "../images/cafe-adv/7.png";

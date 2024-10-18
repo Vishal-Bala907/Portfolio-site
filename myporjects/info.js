@@ -21,10 +21,22 @@ const projectInfoArray = [
     github: "https://github.com/Vishal-Bala907/Wether-App",
     image: "../../myporjects/ProjectImages/whe.jpg",
   },
+  {
+    id: "p-8",
+    title: "Daily progress",
+    tech: "React JS, tailwind and Spring Boot",
+    category: "web app",
+    desc: "A comprehensive and light weight application, which lets you to note your daily routine and show your progress in a pie chart",
+    coverImage: "/daily-prog",
+    site: "/daily-prog",
+    github:
+      "https://github.com/Vishal-Bala907/Frontends-in-react/tree/main/DailyProgressTracker",
+    image: "../../myporjects/ProjectImages/whe.jpg",
+  },
 
   {
     id: "p-2",
-    title: "Cage management system advance",
+    title: "Cafe management system advance",
     tech: "JavaFX, Hibernate, MySQL/H2",
     category: "Desktop app",
     desc: "desktop app built in JavaFX framework, this app will provides you all the functionality which was provides in the lite versoin plus some more advance featues like Dashboard, graphs and different views to different users according to their role",

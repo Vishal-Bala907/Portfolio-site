@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 import bts from "../../portfolioIcons/bts.png";
 import c from "../../portfolioIcons/c.png";
 import cpp from "../../portfolioIcons/cpp.png";
@@ -30,6 +28,7 @@ import gh from "../../portfolioIcons/gh.png";
 import "../App.css";
 
 import "aos/dist/aos.css";
+import "../../public/fonts.css";
 
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // optional
@@ -94,8 +93,10 @@ export default function Skills() {
 
   return (
     <div id="skills" className=" bg-dark p-5 mt-3 bd-dark">
-      <div className="container-sm">
-        <h1 className="pb-3 text-white">Tools , Languages and Frameworks</h1>
+      <h1 className="pb-3 text-white text-center fondamento-regular">
+        Tools , Languages and Frameworks
+      </h1>
+      <div className="container-sm d-flex justify-content-center align-items-center flex-wrap">
         {imagearr.map((img, index) => {
           return (
             <Tippy

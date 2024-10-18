@@ -1,5 +1,3 @@
-import React from "react";
-
 import img1 from "../images/clock/clock1.png";
 import img2 from "../images/clock/clock1.png";
 import img3 from "../images/clock/clock1.png";

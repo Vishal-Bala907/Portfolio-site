@@ -1,0 +1,28 @@
+.playwrite-gb-s-info {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 330;
+  font-style: normal;
+}
+.exo-2-writting {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.fondamento-regular {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fondamento-regular-italic {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+.oleo-script-regular {
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

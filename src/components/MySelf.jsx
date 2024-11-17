@@ -64,8 +64,6 @@ export default function MySelf() {
             "MERN",
             "MySQL",
             "Docker",
-            "Bootstrap",
-            "Redis",
           ].map((skill) => (
             <div className="col-md-3 mb-4" key={skill} data-aos="fade-up">
               <div className="card skill-card">

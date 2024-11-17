@@ -5,27 +5,24 @@
 
 .gradient {
   background: linear-gradient(45deg, #8100ff, black, #ff1313, blue);
-
-  /* animation-name: gradientAnimate;
-  animation-duration: 4s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-} */
 }
 
 @media screen and (min-width: 1200px) {
   .breakpoint {
     max-width: 25% !important;
+    height: 340px;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .breakpoint {
     max-width: 35% !important;
+    height: 340px;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
   .breakpoint {
     max-width: 45% !important;
+    height: 340px;
   }
 }
 

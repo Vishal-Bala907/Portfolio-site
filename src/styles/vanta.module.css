@@ -2,7 +2,7 @@
   background-image: url("/images/dsg.jpg");
   background-size: cover;
   /* width: 100%; */
-  height: fit-content;
+  height: 100vh;
   width: auto;
   padding: 10% 0;
   display: flex;

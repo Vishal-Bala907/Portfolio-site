@@ -53,20 +53,19 @@ export default function MySelf() {
           and expertise in the world of software development.
         </p>
         <hr />
-        <div className="row">
+        <h3 className="fw-bold">Core Skills</h3>
+        <div className="row d-flex justify-content-center align-items-center flex-wrap">
           {[
             "Spring",
             "Spring Boot",
-            "OAuth",
-            "JWT",
-            "MongoDB",
+            "Spring Security",
+            "OAuth2",
             "Microservices",
-            "Hibernate",
-            "Thymeleaf",
             "MERN",
             "MySQL",
             "Docker",
             "Bootstrap",
+            "Redis",
           ].map((skill) => (
             <div className="col-md-3 mb-4" key={skill} data-aos="fade-up">
               <div className="card skill-card">

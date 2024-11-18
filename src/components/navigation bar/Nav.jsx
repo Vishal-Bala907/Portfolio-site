@@ -22,10 +22,15 @@ export default function Nav() {
           </button>
 
           <div
-            className="collapse navbar-collapse justify-content-center"
+            className="collapse navbar-collapse justify-content-evenly"
             id="navbarsExample03"
           >
             <ul className="navbar-nav">
+              <li className="nav-item text-white fw-bold fs-4 playwrite-gb-s-info">
+                Vishal bala
+              </li>
+            </ul>
+            <ul className="navbar-nav exo-2-writting">
               <li className="nav-item">
                 <HashLink
                   smooth

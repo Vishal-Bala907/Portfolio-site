@@ -28,7 +28,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<MainPage />}></Route>
-        {/* <MainPage /> */}
         <Route path="/clock" element={<Clocck />}></Route>
         <Route path="/daily-prog" element={<DailyProgress />}></Route>
         <Route path="/cafe-lite" element={<CafeLite />}></Route>

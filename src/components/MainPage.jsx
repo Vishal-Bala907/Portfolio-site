@@ -6,6 +6,8 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
+import Education from "./Education";
+import UpcomingProj from "./UpcomingProj";
 
 export default function MainPage() {
   return (
@@ -14,9 +16,13 @@ export default function MainPage() {
       <HeroCover />
       <MySelf />
       <hr style={{ color: "white", width: "80%", margin: "auto" }} />
+      <Education />
+      <hr style={{ color: "white", width: "80%", margin: "auto" }} />
       <Skills />
       <hr style={{ color: "white", width: "80%", margin: "auto" }} />
       <Projects />
+      <hr style={{ color: "white", width: "80%", margin: "auto" }} />
+      <UpcomingProj />
       <hr style={{ color: "white", width: "80%", margin: "auto" }} />
       <ContactMe />
       <hr style={{ color: "white", width: "100%", margin: "auto" }} />

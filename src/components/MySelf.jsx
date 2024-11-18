@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import "aos/dist/aos.css";
 import "../../public/fonts.css";
@@ -32,8 +32,8 @@ export default function MySelf() {
       className="container-fluid bg-dark text-white text-center fs-3 p-5  exo-2-writting"
     >
       <span className="typing fw-bold p-3 exo-2-writting" ref={element}></span>
-      <p className="non-typing-texts ">
-        <h4 className="p-3">About Me</h4>
+      <div className="non-typing-texts text-underline ">
+        About Me
         <p
           style={{ width: "75%", margin: "auto" }}
           className="fs-5 playwrite-gb-s-info"
@@ -74,7 +74,7 @@ export default function MySelf() {
             </div>
           ))}
         </div>
-      </p>
+      </div>
     </div>
   );
 }
